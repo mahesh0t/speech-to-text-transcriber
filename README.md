@@ -1,12 +1,10 @@
 # speech-to-text-transcriber
-For this project, I developed a fully serverless, cloud-native speech-to-text transcription web tool using a combination of Google Cloud Platform (GCP) services and frontend technologies (HTML5, JavaScript, and CSS3). The objective was to create an accessible, fast, and multilingual transcription service that requires no local processing.
+I built a fully serverless, cloud-native speech-to-text web tool using Google Cloud Platform (GCP) and modern frontend tech. The goal was to deliver fast, multilingual transcription with no local processing.
 
-On the frontend, I used HTML5 to structure a responsive user interface that includes audio recording and file upload capabilities. JavaScript was central to handling user interactions — including capturing microphone input using the MediaRecorder API, managing audio playback, and sending audio data to the backend using asynchronous fetch requests. The UI was styled using CSS3 to deliver a clean and responsive design, ensuring it worked seamlessly across devices.
+The frontend, built with HTML5, JavaScript, and CSS3, supports audio recording/upload via the MediaRecorder API and fetch requests. It features a clean, responsive UI that works across devices.
 
-On the backend, I used Python with Flask, containerized the application using Docker, and deployed it using Google Cloud Run — a serverless platform that auto-scales based on demand. The Google Cloud Speech-to-Text API was integrated to perform real-time audio transcription in multiple languages. Authentication was securely handled using GCP service accounts.
+The backend uses Python (Flask), containerized with Docker, and deployed on Google Cloud Run for auto-scaling. It integrates Google Cloud Speech-to-Text API for real-time transcription and uses secure GCP service account authentication.
 
-For deployment and user access, I used Firebase Hosting, which served the frontend files globally with low latency via Google’s CDN. The entire workflow — from uploading or recording audio, sending it to the backend, processing it in the cloud, and returning the transcription — is hosted completely on the cloud.
-
-By combining powerful cloud infrastructure (GCP) with responsive and intuitive web technologies (HTML5, JavaScript, and CSS3), I built a modern, scalable, and user-friendly tool that demonstrates practical, real-world application of both cloud and web development skills.
+Firebase Hosting serves the frontend globally via CDN, enabling low-latency user access. The entire process—from audio input to cloud-based transcription—is handled seamlessly in the cloud, showcasing scalable cloud and web development.
 
 deployed tool link: https://cloud-project-456204.web.app/homepage.html
